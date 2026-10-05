@@ -1,0 +1,21 @@
+[project]
+name = "rag-blog-qa"
+version = "0.1.0"
+description = "RAG Q&A over a text document using Pinecone, MiniLM embeddings and Claude"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "black>=26.5.1",
+    "isort>=9.0.2",
+    "langchain>=1.4.3",
+    "langchain-anthropic>=1.7.5",
+    "langchain-community>=0.4.2",
+    "langchain-huggingface>=1.2.2",
+    "langchain-pinecone>=0.2.13",
+    "langchain-text-splitters>=0.3.0",
+    "langchain-unstructured>=1.0.1",
+    "langchainhub>=0.1.21",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.1.0",
+    "unstructured>=0.27.10",
+]
